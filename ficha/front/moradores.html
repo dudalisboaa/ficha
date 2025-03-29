@@ -8,15 +8,28 @@
 <body>
     <div class="container">
         <h1>Cadastro de Moradores</h1>
-        <form action="veiculos.html">
-            <input type="text" placeholder="Nome" required>
-            <input type="text" placeholder="Bloco" required>
-            <input type="text" placeholder="Apartamento" required>
-            <input type="text" placeholder="Telefone" required>
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="Status" required>
+        <form id="morador-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="bloco">Bloco</label>
+            <input type="text" id="bloco" name="bloco" required>
+
+            <label for="apartamento">Apartamento</label>
+            <input type="text" id="apartamento" name="apartamento" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="status">Status</label>
+            <input type="text" id="status" name="status" required>
             <button type="submit">Cadastrar</button>
         </form>
     </div>
+
+<script src="scriptmoradores.js"></script>
 </body>
 </html>
